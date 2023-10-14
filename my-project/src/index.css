@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header-bg {
+  background-image: url('./assets/hero-8-bg-shape-cover.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  background-position: center;
+}
