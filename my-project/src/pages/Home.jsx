@@ -297,7 +297,7 @@ export default function Home() {
 						mechanics{" "}
 					</p>
 				</div>
-				<div className="flex lg:flex-row md:flex-row flex-wrap flex-col justify-center gap-x-10">
+				<div className="flex lg:flex-row md:flex-row md:flex-wrap lg:flex-nowrap flex-col justify-center gap-x-10">
 					<div className="flex flex-col gap-y-10 shadow-gray-200 shadow-xl p-10 lg:w-1/3 md:w-1/3">
 						<HeartIcon className="bg-red-500 rounded-full p-5 fill-white text-white w-20" />
 						<p className="text-xl font-bold">FREE</p>
